@@ -1,0 +1,54 @@
+.pai-dos-lados {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.pai-dos-lados div {
+    width: 50%;
+}
+
+.pai-dos-lados .lado-direito img {
+    width: 100%;
+}
+
+.pai-dos-lados .lado-esquerdo p {
+    text-align: justify;
+}
+
+.pai-dos-lados .lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pai-dos-lados .lado-esquerdo button {
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer;
+}
+
+.pai-dos-lados .lado-esquerdo button:hover {
+    background: #444;
+}
+
+.pai-dos-lados .lado-esquerdo h1, .newsletter h2 {
+    text-transform: uppercase;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsletter .title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
