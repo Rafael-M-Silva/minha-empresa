@@ -14,22 +14,25 @@
 </head>
 
 <body>
-    <div class="cabecalho">
+    <header class="cabecalho">
         <h1>Logo</h1>
-        <ul>
-            <li>
-                <a href="./index.html">Home</a>
-            </li>
-            <li>
-                <a href="./pages/historia.html">História</a>
-            </li>
-            <li>
-                <a href="./pages/contato.html">Contato</a>
-            </li>
-        </ul>
-    </div>
-    <div class="main">
-        <div class="pai-dos-lados">
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./pages/historia.html">História</a>
+                </li>
+                <li>
+                    <a href="./pages/contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="pai-dos-lados">
             <div class="lado-esquerdo">
                 <h1>Minha Empresa</h1>
                 <!-- tag img para adicionar uma imagem -->
@@ -40,14 +43,14 @@
                     qui voluptatem sint nemo, laboriosam velit nisi dolor magni iure, praesentium fugit, expedita hic
                     dignissimos voluptates at animi veritatis!</p>
                 <!-- Tag button para criar um botão -->
-                <button>Conheça nossa história</button>
+                <button class="btn">Conheça nossa história</button>
             </div>
             <div class="lado-direito">
                 <img src="./assets/img/empresa.jpg" alt="CLT no escritório">
             </div>
-        </div>
+        </section>
 
-        <div class="newsletter">
+        <section class="newsletter">
             <div class="title">
                 <h2>Inscreva-se na nossa Newsletter</h2>
                 <p>Tenha as ultimas noticias sobre a nossa empresa - todas as segunda-feira.</p>
@@ -56,15 +59,14 @@
             <form>
                 <input type="text" placeholder="Digite seu nome completo" required>
                 <input type="email" placeholder="Digite seu E-mail" required>
-                <input type="submit" value="Inscreva-se">
+                <input class="btn" type="submit" value="Inscreva-se">
             </form>
-        </div>
+        </section>
+    </main>
 
-
-
-
+    <footer class="rodape">
         <p>Desenvolvido por <strong>Rafael Mauricio</strong> &copy; Todos direitos reservados.</p>
-    </div>
+    </footer>
 </body>
 
 </html>
